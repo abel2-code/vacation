@@ -7,7 +7,6 @@ const wishlist = document.getElementById("wishlist");
 
 form.onsubmit = (e) => {
   e.preventDefault();
-  console.log("hello");
   let destinationValue = destination.value;
   let locationValue = newLocation.value;
   let photoValue = photo.value;
@@ -24,7 +23,6 @@ form.onsubmit = (e) => {
 };
 
 onclick = (e) => {
-  console.log("hi, there");
   if (e.target.matches("button#delete_button")) {
     e.target.parentNode.remove();
   }
