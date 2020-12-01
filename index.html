@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Vacation Destinations WishList</h1>
+      <p>
+        Found exciting places to visit on your next vacation? Use the form below
+        to add them to your wishlist
+      </p>
+    </div>
+    <div>
+      <form id="form">
+        <div class="textbox">
+          <input
+            id="destination_name"
+            type="text"
+            placeholder="Enter Destination"
+            required
+          />
+        </div>
+        <div class="textbox">
+          <input
+            id="location"
+            type="text"
+            placeholder="Where is it located?"
+            required
+          />
+        </div>
+        <div class="textbox">
+          <input id="photo" type="text" placeholder="Enter an image url" />
+        </div>
+        <div class="textbox">
+          <input
+            id="description"
+            type="text"
+            placeholder="Give a brief description about the location"
+          />
+        </div>
+        <button type="submit">Add to List</button>
+      </form>
+    </div>
+    <div>
+      <ul id="wishlist"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
