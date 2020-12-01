@@ -1,0 +1,18 @@
+.card {
+  color: rgba(0, 128, 0);
+  border-style: double;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.card_div {
+  background-color: rgba(231, 241, 231);
+}
+
+#delete_button {
+  float: right;
+}
+
+#edit_button {
+  float: left;
+}
