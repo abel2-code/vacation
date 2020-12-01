@@ -9,10 +9,11 @@ form.onsubmit = (e) => {
   e.preventDefault();
   let destinationValue = destination.value;
   let locationValue = newLocation.value;
-  let photoValue = photo.value;
+  let photoValue = URL.createObjectURL(photo.files[0]);
   let descriptionValue = description.value;
 
   wishlist.innerHTML += `<li>
+  <img src="${photoValue}" width="400">
   <h1>${destinationValue}</h1>
   <p>${locationValue}</p>
   <button id="delete_button">Remove</button>

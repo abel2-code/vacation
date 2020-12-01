@@ -17,6 +17,7 @@
     <div>
       <form id="form">
         <div class="textbox">
+          <label>Destination</label>
           <input
             id="destination_name"
             type="text"
@@ -25,6 +26,7 @@
           />
         </div>
         <div class="textbox">
+          <label>Location</label>
           <input
             id="location"
             type="text"
@@ -33,9 +35,16 @@
           />
         </div>
         <div class="textbox">
-          <input id="photo" type="text" placeholder="Enter an image url" />
+          <label>Photo</label>
+          <input
+            id="photo"
+            type="file"
+            placeholder="Enter an image url"
+            accept="image/*"
+          />
         </div>
         <div class="textbox">
+          <label>Description</label>
           <input
             id="description"
             type="text"
