@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="form">
+      <input
+        id="job_description"
+        type="text"
+        placeholder="Search by description..."
+      />
+      <input id="location" type="text" placeholder="Search by location..." />
+      <br />
+      <p>Include:</p>
+      <input type="radio" id="full_time" name="job_type" value="full_time" />
+      <label for="full_time">full-time</label><br />
+      <input type="radio" id="part_time" name="job_type" value="part_time" />
+      <label for="part_time">part-time</label><br />
+      <input type="radio" id="all" name="job_type" value="all" />
+      <label for="all">all</label>
+      <br />
+      <button id="trigger_btn" type="submit">Enter</button>
+    </form>
+    <div id="cards_container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

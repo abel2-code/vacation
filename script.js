@@ -35,7 +35,7 @@ onclick = (e) => {
     let editedPhoto = prompt("Enter a new photo");
 
     e.target.parentNode.innerHTML = `
-        <img src="${editedPhoto}"
+        <img src="${editedPhoto}">
         <h1>${editedDestination}</h1>
         <p>${editedLocation}</p>
         <button id="delete_button">Remove</button>

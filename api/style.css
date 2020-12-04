@@ -8,11 +8,3 @@
 .card_div {
   background-color: rgb(41, 49, 41);
 }
-
-#delete_button {
-  float: right;
-}
-
-#edit_button {
-  float: left;
-}
